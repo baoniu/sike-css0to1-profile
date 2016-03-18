@@ -11,7 +11,7 @@ body {
 	background-image:url(../img/bg5.jpg);
 	background-attachment:fixed;
 	background-size:cover;
-	background-position:center;    
+	background-position:center;
 }
 h1,h2,h3,h4,h5,h6{
     color:#333333;
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
     background-image:url(../img/banner.jpg);
 }
 .main-header__avatar{
-    width: 15%;
+    /*width: 15%;*/
     display: block;
     margin:0 auto;
     margin-top:-70px;
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6{
     overflow: hidden;
 }
 .education-experience__list img{
-    width: 150px;
+    width: 180px;
     float:left;
     padding-right: 25px;
 }
@@ -192,4 +192,78 @@ h1,h2,h3,h4,h5,h6{
 }
 .contact input,.contact textarea{
     padding:8px;
+}
+/*  Large Devices, Wide Screens */
+@media only screen and (max-width:1200px)
+{
+
+}
+
+/*  Medium Devices, Desktops    */
+@media only screen and (max-width:992px)
+{
+
+}
+
+/*  Small Devices, Tables   */
+@media only screen and (max-width:768px)
+{
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width:480px)
+{
+    .container{
+        width:100%;
+    }
+    .main-nav ul{
+        padding-left:0;
+    }
+    .main-nav ul li{
+        display: block;
+        padding-left:0;
+    }
+    .main-header h1{
+        font-size:30px;
+    }
+    .info-section{
+        padding:10px;
+    }
+    .whatido__skill{
+        float: none;
+        width:100%;
+        margin-bottom:40px;
+    }
+    .education-experience__list{
+        padding:0;
+        text-align:center;
+    }
+    .education-experience__list__description{
+        text-align:left;
+    }
+    .education-experience__list img{
+        float:none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .education-experience header h2 span{
+        display: block;
+    }
+    .photos__list li{
+        float:none;
+        width:100%;
+    }
+    .get-in-touch__list li{
+        width: 50%;
+    }
+    .get-in-touch__list li img{
+        width:80%;
+    }
+    .contact form{
+        width:80%;
+    }
+    .contact label{
+        position:static;
+    }
 }
